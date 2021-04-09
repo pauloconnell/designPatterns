@@ -1,5 +1,5 @@
 body {
-  padding: 1em;
+  padding: 0.1em;
 }
 
 h1 {
@@ -39,13 +39,20 @@ button:hover {
 button:active {
   background-color: #00006D;
 }
+
 .pink {
   background-color: #FF69B4;
 }
-
 .orange {
   background-color: orange;
 }
+.blue {
+  background-color: lightblue;
+}
+.green {
+  background-color: green;
+}
+
 #divOne {
   background-color: purple;
 }
