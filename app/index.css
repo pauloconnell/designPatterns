@@ -14,15 +14,15 @@ h1 {
 button {
   appearance: none;
   background-color: #246bec;
-  border: 1px solid #246bec;
-  border-radius: 0;
+  border: 2px solid black;
+  border-radius: 5px;
   box-sizing: border-box;
   color: #ffffff;
-  display: block;
+  display:inline-block;
   font-size: 2em;
   font-weight: 500;
-  margin-bottom: 1em;
-  margin-top: 1em;
+  margin-bottom: 0.1em;
+  margin-top: 0.1em;
   padding: 0.5em;
   width: auto;
   transition: border-color, background-color 300ms ease-in-out;
@@ -39,6 +39,7 @@ button:hover {
 button:active {
   background-color: #00006D;
 }
+
 
 .pink {
   background-color: #FF69B4;

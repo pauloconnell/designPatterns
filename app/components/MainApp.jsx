@@ -4,7 +4,7 @@ const UnorderedList = require("./UnorderedList");
 //const Array = require("./DataStructures/Array");
 //const LinkedList = require("./DataStructures/LinkedList");
 const Constructor = require("./Creational/Constructor");
-//const RandomPointInCircle = require("./CodingChallenges/RandomPointInCircle");
+const Module= require("./Creational/Module");
 //const DepthFirstSearch = require("./Algorithms/DepthFirstSearch");
 //const BreadthFirstSearch = require("./Algorithms/BreadthFirstSearch");
 const styles = require("../index.css");
@@ -22,6 +22,7 @@ class MainApp extends React.Component {
     this.handleArray = this.handleArray.bind(this);
     this.handleLinkedList = this.handleLinkedList.bind(this);
     this.handleDp = this.handleDp.bind(this);
+    
   }
 
   componentDidMount() {}
@@ -79,6 +80,7 @@ class MainApp extends React.Component {
           Singleton
           <Constructor showDp={this.state.showDp}
             handleDp={e => this.handleDp(e)} />
+          <Module />
         </div>
         <div className="orange">
           2 Structural Design Patterns <br />
