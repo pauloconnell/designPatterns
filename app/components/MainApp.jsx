@@ -1,6 +1,6 @@
 const React = require("react");
 const UnorderedList = require("./UnorderedList");
-//const Set = require("./DataStructures/Set");
+const Singleton = require("./Creational/Singleton");
 //const Array = require("./DataStructures/Array");
 //const LinkedList = require("./DataStructures/LinkedList");
 const Constructor = require("./Creational/Constructor");
@@ -81,6 +81,7 @@ class MainApp extends React.Component {
           <Constructor showDp={this.state.showDp}
             handleDp={e => this.handleDp(e)} />
           <Module />
+          <Singleton />
         </div>
         <div className="orange">
           2 Structural Design Patterns <br />
