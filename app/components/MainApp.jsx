@@ -1,7 +1,7 @@
 const React = require("react");
 const UnorderedList = require("./UnorderedList");
 const Singleton = require("./Creational/Singleton");
-//const Array = require("./DataStructures/Array");
+const Observer = require("./Behavioral/Observer");
 //const LinkedList = require("./DataStructures/LinkedList");
 const Constructor = require("./Creational/Constructor");
 const Module= require("./Creational/Module");
@@ -97,12 +97,14 @@ class MainApp extends React.Component {
           that disparate parts of a system have synchronized information.
           Popular examples of these patterns are: Chain of responsibility
           Command Iterator Mediator Memento Observer State Strategy Visitor
+          <Observer />
         </div>
         <div className="green">
           4 Concurrency Design Patterns
           <br /> These types of design patterns deal with multi-threaded
           programming paradigms. Some of the popular ones are: Active object
           Nuclear reaction Scheduler
+          
         </div>
 
         <div className="orange">
