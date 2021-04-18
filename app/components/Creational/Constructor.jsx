@@ -4,7 +4,7 @@ const Constructor = function(props) {
   return (
     <div>
       <h2> Design Pattern:</h2>
-      <h1>Creation-Constructor</h1>
+      <h1>Constructor</h1>
       
 
       <br />

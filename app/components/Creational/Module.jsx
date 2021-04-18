@@ -26,7 +26,7 @@ class Module extends React.Component {
   return (
     <div>
       <h2> Design Pattern:</h2>
-      <h1>Creation-Module</h1>
+      <h1>Module</h1>
       
 
       <br />
