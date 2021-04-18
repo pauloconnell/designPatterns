@@ -26,7 +26,7 @@ class Singleton extends React.Component {
   return (
     <div>
       <h2> Design Pattern:</h2>
-      <h1>Creation-Singleton</h1>
+      <h1>Singleton</h1>
       
 
       <br />

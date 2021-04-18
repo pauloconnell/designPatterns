@@ -2,7 +2,7 @@ const React = require("react");
 const UnorderedList = require("./UnorderedList");
 const Singleton = require("./Creational/Singleton");
 const Observer = require("./Behavioral/Observer");
-//const LinkedList = require("./DataStructures/LinkedList");
+const Prototype = require("./Creational/Prototype");
 const Constructor = require("./Creational/Constructor");
 const Module= require("./Creational/Module");
 //const DepthFirstSearch = require("./Algorithms/DepthFirstSearch");
@@ -56,7 +56,7 @@ class MainApp extends React.Component {
           <h2> React Components added for each: </h2>
         </center>
         <div style={{ backgroundColor: "lightBlue" }}>
-          Design Pattern Categorization
+          <h2>Design Pattern Categorization</h2>
           <br /> Design patterns can be categorized in multiple ways, but the
           most popular one is the following 5 types:
           <br />
@@ -70,7 +70,7 @@ class MainApp extends React.Component {
           <br />5 'Architectural' design patterns
         </div>
         <div className="green">
-          1 Creational Design Patterns <br />
+          <h2>1 Creational Design Patterns</h2> <br />
           These patterns deal with object creation mechanisms which optimize
           object creation compared to a basic approach. The basic form of object
           creation could result in design problems or in added complexity to the
@@ -82,6 +82,7 @@ class MainApp extends React.Component {
             handleDp={e => this.handleDp(e)} />
           <Module />
           <Singleton />
+          <Prototype />
         </div>
         <div className="orange">
           2 Structural Design Patterns <br />

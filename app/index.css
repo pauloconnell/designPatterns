@@ -40,6 +40,12 @@ button:active {
   background-color: #00006D;
 }
 
+code {
+  display:block;
+  background-color:grey;
+  border: 2px solid black;
+  width:90%;
+}
 
 .pink {
   background-color: #FF69B4;
