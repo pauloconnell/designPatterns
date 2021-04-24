@@ -47,11 +47,15 @@ There are various versions of this pattern, but in its most basic form, we have 
           The first is a subject and <br/>
           the second is observers.
 
-A subject handles all of the operations regarding a certain topic that the observers subscribe to. These operations subscribe an observer to a certain topic, unsubscribe an observer from a certain topic, and notify observers about a certain topic when an event is published.
+This design pattern is useful in situations when we need to perform multiple operations on a single event being fired.<br/>
+          
+          A subject handles all of the operations regarding a certain topic that the observers subscribe to. These operations subscribe an observer to a certain topic, unsubscribe an observer from a certain topic, and notify observers about a certain topic when an event is published.
 
 However, there is a variation of this pattern called the publisher/subscriber pattern, which I am going to use as an example in this section. The main difference between a classical observer pattern and the publisher/subscriber pattern is that publisher/subscriber promotes even more loose coupling then the observer pattern does.
 
 In the observer pattern, the subject holds the references to the subscribed observers and calls methods directly from the objects themselves whereas, in the publisher/subscriber pattern, we have channels, which serve as a communication bridge between a subscriber and a publisher. The publisher fires an event and simply executes the callback function sent for that event.
+          
+          
 
 I am going to display a short example of the publisher/subscriber pattern.
          <b>Observer - Publisher/subscriber Pattern</b> <br/>

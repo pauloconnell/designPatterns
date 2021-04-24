@@ -76,7 +76,7 @@ class MainApp extends React.Component {
           creation could result in design problems or in added complexity to the
           design. Creational design patterns solve this problem by somehow
           controlling object creation. Some of the popular design patterns in
-          this category are: Factory method Abstract factory Builder Prototype
+          this category are: <br/>Factory method<br/> Abstract<br/> factory<br/> Builder<br/> Prototype<br/>
           Singleton
           <Constructor showDp={this.state.showDp}
             handleDp={e => this.handleDp(e)} />
@@ -88,22 +88,22 @@ class MainApp extends React.Component {
           2 Structural Design Patterns <br />
           These patterns deal with object relationships. They ensure that if one
           part of a system changes, the entire system doesn’t need to change
-          along with it. The most popular patterns in this category are: Adapter
-          Bridge Composite Decorator Facade Flyweight Proxy
+          along with it. The most popular patterns in this category are: <br />Adapter
+          Bridge<br /> Composite<br /> Decorator<br /> Facade<br /> Flyweight<br /> Proxy<br />
         </div>
         <div className="blue">
           3 Behavioral Design Patterns <br />
           These types of patterns recognize, implement, and improve
           communication between disparate objects in a system. They help ensure
           that disparate parts of a system have synchronized information.
-          Popular examples of these patterns are: Chain of responsibility
-          Command Iterator Mediator Memento Observer State Strategy Visitor
+          Popular examples of these patterns are: <br />Chain of responsibility
+          <br />Command Iterator<br /> Mediator <br />Memento <br />Observer <br />State Strategy <br />Visitor<br />
           <Observer />
         </div>
         <div className="green">
           4 Concurrency Design Patterns
           <br /> These types of design patterns deal with multi-threaded
-          programming paradigms. Some of the popular ones are: Active object
+          programming paradigms. Some of the popular ones are: <br />Active object<br />
           Nuclear reaction Scheduler
           
         </div>
@@ -111,8 +111,8 @@ class MainApp extends React.Component {
         <div className="orange">
           5 Architectural Design Patterns <br />
           Design patterns which are used for architectural purposes. Some of the
-          most famous ones are: MVC (Model-View-Controller) MVP
-          (Model-View-Presenter) MVVM (Model-View-ViewModel)
+          most famous ones are: <br />MVC (Model-View-Controller) <br />MVP
+          (Model-View-Presenter)<br /> MVVM (Model-View-ViewModel)<br />
         </div>
       </div>
     );
