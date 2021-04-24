@@ -1,6 +1,27 @@
 const React = require("react");
 
-const Constructor = function(props) {
+class Constructor extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      showThis: false
+    };
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick() {
+    this.setState({
+      showThis: !this.state.showThis
+    });
+    console.log("handled ", this.state.showThis);
+  }
+
+
+
+render(){
+  
+
   return (
     <div>
       <h2> Design Pattern:</h2>
@@ -9,9 +30,9 @@ const Constructor = function(props) {
 
       <br />
       
-        <button onClick={e => props.handleDp(e)}>Details:</button>
+        <button onClick={e => this.handleClick(e)}>Details:</button>
       
-      {props.showDp ? (
+      {this.state.showThis ? (
         <div>
           <h3>Constructor Design Pattern:</h3>
           <h4>
@@ -46,7 +67,7 @@ const Constructor = function(props) {
             <br />
             <br />
             <br /><center>
-            <button onClick={e => props.handleDp(e)}>Close</button>
+            <button onClick={e => this.handleClick(e)}>Close</button>
             </center>
             <br />
             <br />
@@ -66,4 +87,5 @@ const Constructor = function(props) {
     </div>
   );
 };
+}
 module.exports = Constructor;

@@ -19,8 +19,7 @@ class Module extends React.Component {
 
   
   
-  
-  
+    
   render(){
   
   return (
