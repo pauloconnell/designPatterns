@@ -1,12 +1,13 @@
 const React = require("react");
 const UnorderedList = require("./UnorderedList");
 const Singleton = require("./Creational/Singleton");
-const Command  = require("./Behavioral/Command");
+const Command = require("./Behavioral/Command");
 const Observer = require("./Behavioral/Observer");
 const Mediator = require("./Behavioral/Mediator");
 const Prototype = require("./Creational/Prototype");
 const Constructor = require("./Creational/Constructor");
 const Module = require("./Creational/Module");
+const Facade = require("./Structural/Facade");
 const styles = require("../index.css");
 /* the main page for the index route of this app */
 class MainApp extends React.Component {
@@ -104,6 +105,7 @@ class MainApp extends React.Component {
             <br /> Flyweight
             <br /> Proxy
             <br />
+            <Facade />
           </div>
           <div className="blue">
             3 Behavioral Design Patterns <br />
